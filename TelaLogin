@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <style>
+            body{
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                background: url(../imagens/fundosite.png),no-repeat ;
+                background-size: 100%;
+            }
+            #container{
+                background-color:rgba(255,255,255,0.5);
+                width: 500px;
+                height: 600px;
+                margin: 0 auto;
+                margin-top: 120px;
+                border-radius: 10px;
+                text-align: center;
+            }
+            #perfil{
+                width: 170px;
+                height: 170px;
+                margin-top: -60px;
+                margin-bottom: 30px;
+                border-radius: 50%;
+            }
+            input{
+                height: 40px;
+                width: 80%;
+                font-size: 18px;
+                margin-bottom: 10px;
+                background-color: #fff;
+                padding-left: 40px;
+                background-position: 10px;
+                background-repeat: no-repeat;
+            }
+             input.usuario{
+                background-image: url(../imagens/icone-usuario.png);
+             }
+             input.senha{
+                background-image: url(../imagens/icone-cadeado.png);
+             }
+             input.logar{
+                border-radius: 10px;
+                background-color: #011246;
+                margin-top: 15px;
+                color: #fff;
+                width: 80%;
+                height: 60px;
+                font-weight: bold;
+                font-size: 25px;
+             }
+             input.logar:hover{
+                background: #08298A; ;
+                color: #fff;
+                
+             }
+             a{
+                color: whitesmoke;
+                text-decoration: none;
+             }
+             a:hover{
+                color: #011246;
+             }
+             p{
+                font-size: 20px;
+                color:whitesmoke;
+                font-weight: bold;
+             }
+             .icone{
+                width: 30px;
+                height: 30px;
+             }
+             a img{
+                padding: 10px;
+                width: 50px;
+                height: 50px;
+                filter: grayscale(100%) brightness(100%);
+             }
+             .xbox{
+                filter: grayscale(100%) brightness(50%);
+                width: 50px;
+                height: 50px;
+             }
+        </style>
+    </head>
+    <body>
+        <div id="container">
+                <img id="perfil" src="../imagens/perfil.png">
+
+            <form>
+                <div>
+                        <input class="usuario" type="text" name="usuario" id="usuario" placeholder="Usuário">
+                </div>
+                <div>
+                        <input class="senha" type="password" name="senha" id="senha" placeholder="Senha">
+                </div>  
+                <div>  
+                        <input class="logar" type="submit" value="Entrar">
+                </div>
+                <a href="esqueci a senha"><h2>Esqueci a Senha</h2></a>
+            </form>
+                <hr>
+                <p>Entrar com conta</p>
+                
+                <a href="https://store.playstation.com/pt-br/pages/latest?gad_source=1&gclid=CjwKCAjw7-SvBhB6EiwAwYdCAe5_rXECb4ZYdSd8EVy-__uwspsY9aC-psDZ_b_XrxVQ3ghGB4IIihoCrigQAvD_BwE"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/PlayStation_logo.svg/1200px-PlayStation_logo.svg.png"></a>
+
+                <a href="https://store.epicgames.com/pt-BR/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Epic_Games_logo.svg/1200px-Epic_Games_logo.svg.png"></a>
+
+                <a href="https://www.xbox.com/pt-BR" class="xbox"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Xbox_one_logo.svg/2048px-Xbox_one_logo.svg.png"></a>
+
+                <a href="https://store.steampowered.com/?l=portuguese" class="xbox"><img src="https://cdn.icon-icons.com/icons2/2428/PNG/512/steam_black_logo_icon_147078.png"></a>
+
+                <a href="" class="xbox"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Electronic-Arts-Logo.svg/2048px-Electronic-Arts-Logo.svg.png"></a>
+        </div>
+    </body>
+</html>
